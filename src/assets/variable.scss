@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=fallback');
+$bg:#0b234b;
+@mixin LOGO {
+    width:150px;
+    height:150px;
+}
+@mixin Input {
+    border:0px;
+    border-radius: 0px;
+    height:40px;
+padding:0px 12px;
+width:100%;
+}
+@mixin BUTTON {
+    background-color: transparent;
+    border: 0px;
+    padding: 0px;
+    font-size: 20px;
+    color: #0b234b;
+    cursor: pointer;
+}
